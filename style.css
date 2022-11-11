@@ -1,0 +1,119 @@
+/* Developed by Milla Thomaz @thomillaz */
+html{
+	color: #888;
+	background-color: #fff;
+	padding: 20px;
+}
+body{
+	background-color: #fff;
+	display: flex;
+	margin: 20px;			
+}
+a:link,
+a:visited{
+	color: #171c6c;
+}
+a:hover{
+	color: #c4a2fc;
+}
+.nav{
+	background-color: #f9f9f9;
+	width: 20%;
+	border-right: 1px dotted #ccc;
+}
+nav li{
+	margin: 5px;
+	color: #c4a2fc;
+}
+.main{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+header,
+main,
+footer{
+	padding: 0 10px;
+	width: 98%;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1f1f1;
+	height: 200px;
+	border-bottom: 1px dotted #ccc;
+}
+header h1{
+	color: #171c6c;
+}
+header img{
+	height: 100%;
+}
+main{
+	background-color: #f6f6f6;
+	height: 350px;
+	overflow: auto;
+}
+main h2{
+	color: #171c6c;
+}
+p{
+	color: #181818;
+}
+form{
+	background-color: #c4a2fc33;
+}
+label,
+select,
+input,
+textarea,
+button{
+	display: inline-block;
+	margin: 5px 0;
+}
+button{
+	margin: 0 150px;
+}
+label{
+	width: 25%;
+}
+select,
+input,
+textarea,
+button{
+	width: 50%;
+}
+table{
+	border: 1px solid #ccc;
+}
+th,
+td{
+	padding: 5px;
+}
+th{
+	background-color: #ddd;
+}
+tr:nth-child(2) th,
+tr:nth-child(3) th,
+tr:nth-child(4) th,
+tr:nth-child(5) th{
+	background-color: #dddddd88;
+}
+td:nth-child(2){
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+td:nth-child(3){
+	border-bottom: 1px solid #ccc;
+}
+tr:nth-child(4) td{
+	border: none;
+}
+footer{
+	background-color: #eee;
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px dotted #ccc;
+}			
